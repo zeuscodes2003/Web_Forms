@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form_1</title>
+  </head>
+  <body>
+    <div class="Main">
+      <div class="Form_1">
+        <table>
+          <caption>
+            Survey Form
+          </caption>
+          <tr>
+            <td>Username:</td>
+            <td>
+              <input
+                type="text"
+                placeholder="Username"
+                class="username"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td>
+              <input
+                type="password"
+                placeholder="Password"
+                class="password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" class="gender" value="Male" required />Male
+              <input
+                type="radio"
+                class="gender"
+                value="Female"
+                required
+              />Female
+            </td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>
+              <input type="text" placeholder="Email" class="email" />
+            </td>
+          </tr>
+          <tr>
+            <td>Phno:</td>
+            <td>
+              <select name="country" id="countryno">
+                <option value="91">+91</option>
+                <option value="87">+87</option>
+                <option value="34">+34</option>
+                <option value="23">+23</option>
+                <option value="90">+90</option>
+              </select>
+              <input
+                type="text"
+                name="Phno"
+                placeholder="9*********1"
+                required
+                id="phno"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Submit:</td>
+            <td>
+              <input type="submit" value="Submit" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

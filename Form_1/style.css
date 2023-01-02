@@ -1,0 +1,15 @@
+#phno{
+    width: 90px;
+}
+
+.Main{
+    height:98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+caption{
+    font-size: 30px;
+}
+
